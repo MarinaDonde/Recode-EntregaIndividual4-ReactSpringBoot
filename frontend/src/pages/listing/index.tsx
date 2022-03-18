@@ -45,6 +45,7 @@ export default function Listing() {
                     {page.content.map(destino => (
                         <div key={destino.id} className="col-sm-6 col-lg-4 col-xl-3 mb-3">
                             <DestinoCard destino={destino} />
+                            <p>testandosdsds</p>
                         </div>
                     )
                     )}
