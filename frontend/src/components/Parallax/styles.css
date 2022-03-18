@@ -1,0 +1,46 @@
+.header_site {
+    background-image: url(../../img/destino4.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: var(--cor3);
+    padding-top: 250px;
+    padding-bottom: 250px;
+    height: 800px;
+}
+
+.text_center {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    color: var(--cor1);
+    text-shadow: .5px .5px .5px var(--cor0), -.5px .5px .5px var(--cor0), .5px -.5px .5px var(--cor0), -.5px -.5px .5px var(--cor0);
+    -webkit-animation: text_center 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: text_center 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes text_center  {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes text_center  {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

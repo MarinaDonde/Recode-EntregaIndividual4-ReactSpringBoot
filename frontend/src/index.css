@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+  --cor0: #0818E0;
+  --cor1: #0253F7;
+  --cor2: #028EED;
+  --cor3: #fff;
+  --cor4: #e81a5d;
+  --cor5: rgb(56, 54, 54);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+  background: linear-gradient(45deg, var(--cor0), var(--cor1), var(--cor2), var(--cor3));
+  background-size: 300% 300%;
+  animation: colors 15s ease infinite;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

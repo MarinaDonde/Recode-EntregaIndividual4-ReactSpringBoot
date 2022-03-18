@@ -1,0 +1,44 @@
+header {
+    background-color: var(--cor0);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 3em;
+    position: fixed;
+    width: 100%;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.social-list li{
+    margin: 0 1em;
+    padding: 5px;
+}
+
+.viaje-nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--cor3);
+}
+
+.viaje-nav-content h1{
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.viaje-contact-container {
+    display: flex;
+    align-items: center;
+}
+
+.viaje-contact-link {
+    margin: 0 0 0 10px;
+    font-size: 12px;
+}

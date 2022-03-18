@@ -1,0 +1,57 @@
+.viaje-form-container {
+    max-width: 480px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.viaje-form {
+    width: calc(100% - 20px);
+}
+
+.viaje-form-group {
+    margin-bottom: 20px;
+}
+
+.viaje-form-group label {
+    font-size: 12px;
+    color: var(--cor5);
+}
+
+.viaje-form-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.viaje-destino-card-image {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    height: 300px;
+}
+
+.viaje-card-bottom-container {
+    background-color: var(--cor3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 20px 10px;
+    border-radius: 0 0 8px 8px;
+}
+
+.viaje-card-bottom-container h3 {
+    color: cor(var--5);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    min-height: 40px;
+}
+
+.viaje-btn {
+    background-color: var(--cor0);
+    font-size: 14px;
+    font-weight: 700;
+    height: 40px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
