@@ -52,7 +52,7 @@ export default function FormCard( { destinoId } : Props ) {
 
     return (
         <div className="viaje-form-container">
-            <img className="viaje-movie-card-image" src={destino?.imagem} alt={destino?.cidade} />
+            <img className="viaje-destino-card-image" src={destino?.imagem} alt={destino?.cidade} />
             <div className="viaje-card-bottom-container">
                 <h3>{destino?.cidade}</h3>
                 

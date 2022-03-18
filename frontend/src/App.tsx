@@ -3,9 +3,10 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import Listing from 'pages/listing';
-import Form from 'pages/form';
+import Listing from 'pages/Listing';
+import Form from 'pages/Form';
 import Navbar from "components/Navbar";
+import Footer from "components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path=":destinoId" element={<Form />} />
         </Route>
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

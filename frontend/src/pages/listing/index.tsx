@@ -25,7 +25,7 @@ export default function Listing() {
     });
 
     useEffect(() => {
-        axios.get(`${BASE_URL}/destinos?size=8&page=${pageNumber}&sort=id`)
+        axios.get(`${BASE_URL}/destinos?size=12&page=${pageNumber}&sort=id`)
             .then(response => {
                 const data = response.data as DestinoPage;
                 setPage(data);

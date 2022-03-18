@@ -4,7 +4,6 @@ header {
     display: flex;
     align-items: center;
     padding: 3em;
-    position: fixed;
     width: 100%;
 }
 

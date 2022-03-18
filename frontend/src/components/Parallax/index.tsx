@@ -6,7 +6,7 @@ export default function Parallax() {
             <div className="container">
                 <div className="row">
                     <div className="col">
-
+                        <h1 className="text_center">Avalie o seu Destino!</h1>
                     </div>
                 </div>
             </div>
